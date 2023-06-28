@@ -1,0 +1,28 @@
+
+.seconddiv{
+
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: "translateY(-50%)";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FD9253;
+    color: white;
+    border-radius: 20px;
+    width: 20%;
+    margin: auto;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 16px;
+}
+.whiteDiv{
+    display: none;
+}
+@media (max-width: 767px) {
+    .divheaderhackathon{
+        display: none;
+    }
+}

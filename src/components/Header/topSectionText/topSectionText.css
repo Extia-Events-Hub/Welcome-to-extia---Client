@@ -1,0 +1,37 @@
+.textBox {
+  position: relative; 
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleStyle {
+  font-size: 190%;
+  color: #283d47;
+}
+
+
+.textOnline{
+  position: "relative";
+  display: "flex";
+  text-align: "center";
+  font-size: "150%";
+  line-height: "1.5";
+  color: "#283D47";
+  font-weight: "bold";
+  margin-bottom: "1%";
+  align-self: 'center';
+}
+
+@media screen and (max-width: 1023px) {
+  .textBox {
+    margin: 64px 0;
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  .textBox {
+    margin: 24px 0;
+  }  
+}

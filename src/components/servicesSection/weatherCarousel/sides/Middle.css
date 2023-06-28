@@ -1,0 +1,65 @@
+.middleside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+
+.btnselected, .btnunselected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  box-shadow: -3px 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.btnunselected {
+  border: 2px solid #000;
+  padding: 8px;
+}
+
+.selected, .unselected {
+  height: 100%;
+  width: 100%;
+}
+
+.weatherText {
+  text-align: center;
+  color: #283d47;
+  font-family: 'Gotham Rounded', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+@media screen and (min-width: 1154px) and (max-width: 1530px) {}
+
+@media screen and (max-width: 1154px) {}
+
+@media screen and (max-width: 768px) {
+  .middleside {
+    gap: 16px;
+  }
+
+  .weatherText {
+    font-size: 17px;
+  }
+
+  .carousel {
+    gap: 16px;
+  }
+
+  .btnunselected, .btnselected {
+    height: 47px;
+    width: 47px;
+  }
+}

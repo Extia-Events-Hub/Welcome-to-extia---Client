@@ -1,0 +1,149 @@
+.cityButton {
+  background-position: center;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+  border-color: transparent !important;
+};
+
+.cityButton:active {
+  background-color: #fc9906;
+  background-size: 100%;
+}
+  
+.cityPicto {
+  width: 40px;
+}
+
+.separatorStyle {
+  height: 80%;
+  padding-right: 4px;
+  padding-left: 4px;
+  border-left: 2px solid #FC9254;
+  vertical-align: middle;
+};
+
+
+.cityNameStyle {
+  position: relative;
+  display: inline-block;
+  left: 1vw;
+  top: 3vw;
+  padding-left: 5vw;
+  color: white;
+  font-size: 100%;
+};
+
+.logoStyle {
+  position: absolute;
+  display: inline;
+  width: 1%;
+  margin-left: 4vw;
+  bottom: 1vw;
+  vertical-align: middle;
+};
+
+.cityCodeStyle {
+  display: inline-block;
+  position: absolute;
+  padding-left: 3%;
+  top: -15%;
+  z-index: 1;
+  font-size: 150%;
+}
+
+.MuiSelect {
+  border-color: transparent;
+}
+@media (min-width:768px){
+  .cityItemMenuHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:90%;
+    padding-left: 30px;
+  }
+}
+
+@media (max-width:768px){
+  .cityItemMenuHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:90%;
+    padding-left: 15px;
+  }
+}
+
+
+animate__bounceOutLeft
+.cityItemTextHeader{
+  font-family: "Gothic A1", cursive;
+}
+
+.elementSelected{
+  border-color: transparent;
+  cursor: pointer;
+}
+
+@media (min-width:768px){
+  .elementSelected {
+   position:absolute;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 30px;
+   width: 31%;
+   cursor: pointer;
+  }
+}
+
+@media (max-width:768px){
+  .elementSelected {
+   position:absolute;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 10px;
+   width: 50%;
+   height: 85px;
+   cursor: pointer;
+  }
+}
+
+@media (min-width:768px){
+  .elementArrival{
+    width:300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+  }
+}
+
+@media (max-width:768px){
+  .elementArrival{
+    width:42%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.nameAndCode{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  text-overflow: ellipsis;
+}
+
+.emptyPictureItemHeader{
+  width: 20px;
+  height: 20px;
+}

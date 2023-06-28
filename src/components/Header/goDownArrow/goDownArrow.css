@@ -1,0 +1,12 @@
+.arrowImg {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 6%;
+}
+
+@media screen and (max-width: 768px) {
+    .arrowImg {
+        bottom: calc(82px + 4%);
+    }
+}

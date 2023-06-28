@@ -1,0 +1,89 @@
+/* .cardCarousel{
+    width: ;
+} */
+
+.circlecarousel {
+  position: absolute;
+  width: 588px;
+  height: 558px;
+  right: -170px;
+  bottom: -82px;
+  background: #ffe9dd;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.container {
+  display: flex;
+  overflow-x: scroll;
+  overflow-x: scroll;
+  gap: 2rem;
+  padding: 2rem 1.5rem;
+  z-index: 10;
+}
+.container::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+  display: none;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  display: none;
+}
+.accent_title {
+  color: #fc9254;
+}
+
+/* .cardContainer {
+    display: flex;
+    scroll-snap-align: start;
+    flex-direction: row;
+    overflow-y: scroll;
+    z-index:3;
+    gap:3rem;
+    padding:2rem
+  
+  } */
+
+.card {
+  box-sizing: border-box;
+  /* position: absolute; */
+  height: auto;
+  min-width: 24rem;
+  background: #ffffff;
+  /* border: 1px solid rgba(0, 0, 0, 0.3); */
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px;
+  border-radius: 1rem;
+  z-index: 3;
+}
+.card_date {
+  color: #fc9254;
+}
+.card_location {
+  color: #bfbfbf;
+}
+
+.image_card {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 1rem 1rem 0 0;
+  object-fit: cover;
+}
+.card_details {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 1rem;
+  padding-bottom: 1rem;
+}
+.button_card_carousel {
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  background-color: #fc9254;
+  color: white;
+  cursor: pointer;
+  justify-self: flex-end;
+  align-self: flex-end;
+  font-weight: 600;
+  font-size: 1rem;
+}

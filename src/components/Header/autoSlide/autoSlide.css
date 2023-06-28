@@ -1,0 +1,416 @@
+.chatBot {
+  box-shadow: rgb(0 0 0 / 15%) 0px -15px 25px;
+  background: #f79254;
+  border: 0px solid;
+  margin: auto;
+  height: 280px;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  z-index: 4;
+}
+.cookieTextDiv{
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  align-items: center;
+  margin-left: 0px;
+}
+.link{
+  text-decoration: underline;
+  color: white;
+  font-size: 11px;
+  font-family: Mont;
+  margin: 4px;
+}
+.cookie {
+  position: relative;
+  margin: 4px;
+  height: 100px;
+  width: auto;
+}
+
+.cookieExplaination {
+  max-height: 280px;
+  overflow-y: scroll;
+  /* Hide the scrollbar */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.cookieExplaination::-webkit-scrollbar {
+  display: none;
+}
+
+.cookieText {
+  margin: 4px;
+  font-size: 11px;
+  color: white;
+  font-family: Mont;
+}
+
+.cookieChoiceText {
+  margin: 4px;
+  font-size: 12px;
+  margin-right: 20px;
+  color: white;
+  font-family: Mont;
+  width:350px;
+}
+
+.cookieButtonDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: auto;
+  margin-left: auto;
+  order: 2;
+  height: 100%;
+  width: 450px;
+}
+.cookieButton {
+  margin-top: 0px;
+  width: 100%;
+  height: 45px;
+  border: 2px solid white !important;
+  font-size: 11px;
+  border-radius: 15px;
+  background: white !important;
+  color: #f79254;
+  background: transparent;
+  font-family: Mont;
+  
+  cursor: pointer;
+}
+.customCookie{
+  position: absolute;
+  top: 15%;
+  left:15%;
+  width: 70%;
+  height: 70%;
+  z-index: 3;
+  box-shadow: rgb(0 0 0 / 15%) 0px -15px 25px;
+  background: #f79254;
+  border-radius: 20px;
+}
+.customCookieTextDiv{
+  width: 100%;
+  border:1px solid blue
+}
+.customCookieChoice{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+  height: auto;
+}
+.customCookieText{
+  border: 1px solid purple;
+  width: 75%;
+}
+
+
+.knobs,
+.layer {
+
+  width: 75px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.buttonCookie {
+  margin-left: auto;
+  order: 2;
+  position: relative;
+  width: 74px;
+  height: 36px;
+  overflow: hidden;
+}
+
+.buttonCookie.r,
+.buttonCookie.r .layer {
+  border-radius: 100px;
+}
+
+.buttonCookie.b2 {
+  border-radius: 2px;
+}
+
+.checkbox {
+  position: relative;
+  width: 75px;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.knobs {
+  z-index: 2;
+}
+
+.layer {
+  width: 100%;
+  background-color: #fcebeb;
+  transition: 0.3s ease all;
+  z-index: 1;
+}
+
+
+#buttonCookie-1 .knobs:before {
+  content: "X";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 20px;
+  height: 10px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  padding: 9px 4px;
+  background-color: #f44336;
+  border-radius: 50%;
+  transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+}
+
+#buttonCookie-1 .checkbox:checked + .knobs:before {
+  content: "✓";
+
+  background-color: #03a9f4;
+  left: 42px;
+}
+#buttonCookie-1 .checkbox:checked ~ .layer {
+  background-color: #ebf7fc;
+}
+
+#buttonCookie-1 .knobs,
+#buttonCookie-1 .knobs:before,
+#buttonCookie-1 .layer {
+  transition: 0.3s ease all;
+}  
+#buttonCookie-2 .knobs:before {
+  content: "X";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 20px;
+  height: 10px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  padding: 9px 4px;
+  background-color: #f44336;
+  border-radius: 50%;
+  transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+}
+
+#buttonCookie-2 .checkbox:checked + .knobs:before {
+  content: "✓";
+
+  background-color: gray;
+  left: 42px;
+}
+
+#buttonCookie-2 .checkbox:checked ~ .layer {
+  background-color: #ebf7fc;
+}
+
+#buttonCookie-2 .knobs,
+#buttonCookie-2 .knobs:before,
+#buttonCookie-2 .layer {
+  transition: 0.3s ease all;
+}  
+@media screen and (min-width: 1441px) {
+  /* for 4k */
+  .cookie {
+    position: relative;
+    margin: 4px;
+    height: 200px;
+    width: auto;
+  }
+  .cookieText {
+    text-align: justify;
+    margin: 4px;
+    font-size: 15px;
+    color: white;
+    width:90%;
+    font-family: Mont;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .link{
+    text-decoration: underline;
+    color: white;
+    font-size: 15px;
+    font-family: Mont;
+    margin-top: 4px;
+  }
+
+  .cookieChoiceText {
+    margin: 4px;
+    font-size: 15px;
+    margin-right: 20px;
+    color: white;
+    font-family: Mont;
+    width:85%;
+  }
+  .customCookieChoice{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+  }
+  .cookieButtonDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+    margin-left: auto;
+    order: 2;
+    height: 100%;
+    width: 650px;
+  }
+  .cookieButton {
+    margin-top: 10px;
+    width: 100%;
+    height: 45px;
+    border: 2px solid white !important;
+    font-size: 16px;
+    border-radius: 15px;
+    background: white !important;
+    color: #f79254;
+    background: transparent;
+    font-family: Mont;
+    cursor: pointer;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 1023px) and (min-width: 767px) {
+  /* for tablet */
+  .chatBot {
+    box-shadow: rgb(0 0 0 / 15%) 0px -15px 25px;
+    background: #f79254;
+    border: 0px solid;
+    margin: auto;
+    height: 350px;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    z-index: 4;
+  }
+  .cookieText {
+    margin: 4px;
+    font-size: 11px;
+    color: white;
+    font-family: Mont;
+    height: 250px;
+    padding-right: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .cookieChoiceText {
+    margin: 4px;
+    font-size: 12px;
+    margin-right: 20px;
+    color: white;
+    font-family: Mont;
+    width:200px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* for phone */
+
+  .chatBot {
+    box-shadow: rgb(0 0 0 / 15%) 0px -15px 25px;
+    background: #f79254;
+    border: 0px solid;
+    margin: auto;
+    height: 600px;
+    width:100%;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    z-index: 4;
+  }
+  .cookieTextDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .cookie {
+    position: relative;
+    margin: 4px;
+    height: 50px;
+    width: auto;
+  }
+  .cookieText {
+    text-align: justify;
+    margin: 4px;
+    font-size: 11px;
+    color: white;
+    font-family: Mont;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .link{
+    text-decoration: underline;
+    color: white;
+    font-size: 11px;
+    font-family: Mont;
+    margin-top: 4px;
+  }
+  
+  .cookieButtonDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+    margin-left: auto;
+    order: 2;
+    height: 100%;
+    width: 100%;
+  }
+  .cookieChoiceText {
+    margin: 4px;
+    font-size: 11px;
+    margin-right: 20px;
+    color: white;
+    font-family: Mont;
+    width:200px;
+  }
+  .cookieButton {
+    margin-top: 10px;
+    width: 100%;
+    height: 45px;
+    border: 2px solid white !important;
+    font-size: 11px;
+    border-radius: 15px;
+    background: white !important;
+    color: #f79254;
+    background: transparent;
+    font-family: Mont;
+    cursor: pointer;
+  }
+}

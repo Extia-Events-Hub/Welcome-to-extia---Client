@@ -1,0 +1,78 @@
+.comparisonTitle {
+  color: #283d47;
+  font-family: mont;
+  font-size: 35px;
+  text-align: center;
+}
+
+.weatherCarousel {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px
+}
+
+.boxWeatherCarousel {
+  background-color: white;
+  text-align: left;
+  border-radius: 0px 0px 30px 30px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 15px 25px -10px;
+  width: 100%;
+  height: 367px;
+  display: grid;
+  align-items: center;
+  vertical-align: middle;
+  padding: 10px;
+  margin-top: -1px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1154px) and (max-width: 1530px) {}
+
+@media screen and (max-width: 768px) {
+  .comparisonTitle {
+    font-size: 20px;
+    display: block;
+  }
+
+  .weatherCarousel {
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 0;
+  }
+
+  .line {
+    width: 3px;
+    background-color: #FC9254;
+    height: 100%;
+    margin-left: -20px;
+    margin-right: -20px;
+    transform: rotate(11deg);
+  }
+
+  .btnCarousel {
+    display: flex;
+    justify-content: center;
+  }
+
+  .boxWeatherCarousel {
+    position: relative;
+    background-color: white;
+    border-radius: 0px 0px 30px 30px;
+    width: 100%;
+    height: 240px;
+    padding: 0;
+  }
+}

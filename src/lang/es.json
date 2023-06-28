@@ -1,0 +1,143 @@
+{
+  "Welcome to React": "welcome",
+  "Welcome to extia": "Bienvenido a\n",
+  "Welcome to": "Bienvenido a Extia",
+  "welcome": "Bienvenido",
+  "to extia": "a Extia",
+  "barcelona": "Barcelona",
+
+  "thinking": "Estoy planeando mudarme a Barcelona",
+  "going": "Me mudo a Barcelona",
+  "leaving": "Me instalo a Barcelona",
+  "installed": "La vida en Barcelona una vez que estoy aquí",
+  "living": "La vida en Barcelona una vez que estoy aquí",
+
+  "indevelopment": "(en desarrollo)",
+
+  "weather of the day": "El clima del día",
+  "weather comparison": "Comparación del clima",
+  "weather5-25": "25 °C > T > 5°C",
+  "weather<5": "Temperatura < 5°C",
+  "weather>25": "Temperatura > 25°C",
+
+  "walk": "Caminar",
+  "scooter": "Scooter",
+  "transport": "Transporte",
+  "trotinette": "Scooter electrico",
+  "bike": "Bicicleta",
+  "car": "Taxi",
+
+  "alone": "Individual",
+  "roommate": "Piso compartido",
+  "family": "Familia",
+  "couple": "Couple",
+
+  "typic": "Típico",
+  "dynamic": "Dinámico",
+  "touristic": "Turístico",
+  "international": "Internacional",
+  "loud": "Ruidoso",
+  "party": "Barrio de fiesta",
+
+  "central": "Central",
+  "commercial": "Commercial",
+  "agreable": "Agreable",
+  "others": "Others",
+
+  "calm": "Tranquilo",
+  "residential": "Residencial",
+  "space": "Espacioso",
+  "nature": "Zonas verdes",
+
+  "averagePriceBeer": "Precio medio de una cerveza",
+  "averagePriceFood": "Precio medio de un restaurante para dos personas",
+  "averagePriceAppartement": "Precio medio de un piso en el centro",
+
+  "averagePriceAppartementFlatsharing": "Precio medio de una habitacion en piso compartido en el centro",
+  "averagePriceAppartementCouple": "Precio medio de un piso individual/pareja en el centro",
+  "averagePriceAppartementFamily": "Precio medio de un piso de 3 habitaciones en el centro",
+
+  "Aix-en-Provence": "Aix-en-Pve",
+  "Barcelone":"Barcelona",
+  "Bordeaux": "Burdeos",
+  "Bruxelles": "Brusela",
+  "Bucarest": "Bucarest",
+  "Grenoble": "Grenoble",
+  "La Rochelle": "Rochelle",
+  "Lausanne": "Lausana",
+  "Lille": "Lila",
+  "Lisbonne": "Lisboa",
+  "Lyon": "Lyon",
+  "Montpellier": "Montpellier",
+  "Nantes": "Nantes",
+  "Niort": "Niort",
+  "Paris": "Paris",
+  "Porto": "Porto",
+  "Rennes": "Rennes",
+  "Strasbourg": "Estrasburgo",
+  "Toulon": "Toulon",
+  "Toulouse": "Tolosa",
+  "Tours": "Tours",
+  "Montréal": "Montreal",
+
+  "noCookie": "Este sitio no usa cookies.",
+  "Cookies":"Este sitio puede utilizar cookies de medición de audiencia para analizar su uso del sitio de una manera no personalizada y cookies de optimización de navegación para redirigirlo a la página dedicada al país en el que se encuentra. Puede decidir aceptar o rechazar estas cookies cuando visite este sitio por primera vez o retire su consentimiento consultando nuestra política de gestión de cookies. Con el fin de garantizar un uso óptimo del sitio, este también deposita las cookies necesarias. Estas cookies no recopilan datos personales sobre usted. Para obtener más información sobre estas cookies, también puede consultar nuestra política de gestión de cookies." ,
+  "cookiesAccept":"Registro",
+  "myCookies": "Mis cookies",
+  "cookiePolicy": "Nuestra política de cookies",
+  "essentialCookies": "Solo acepto las cookies necesarias",
+  "geolocCookies":"Acepto las cookies de geolocalización",
+  "analitycsCookies":"Acepto las cookies de medición de audiencia",
+
+  "days/year":"d./año",
+
+
+  "starting location":"Lugar de partida",
+  "place of arrival":"Lugar de llegada",
+
+  "who are we":"¿ Quienes somos ?",
+  "join us":"Únete a nosotros",
+  "our expertise":"Nuestra experiencia",
+  "contact us":"Contacto con nosotros ",
+  "inside Extia":"En Extia",
+  
+  "Airport": "Aeropuerto",
+  "Station": "Estación de Barcelona-Sants",
+  "Catalunya": "Plaza de Cataluña",
+  "Olimpic": "Puerto Olímpico",
+  "Ciutadella": "Parque de la Ciutadella",
+  "Gracia": "Gràcia",
+  "Espanya": "Plaza de España",
+  "Gothic": "Barrio Gótico",
+  "Nova": "Nova Mar Bella",
+  "Sagrada": "Sagrada Familia",
+
+  "travelTimeCO2": "Este viaje equivale a :",
+
+  "meteoDataFrom": "El historial meteorológico está tomado de https://www.historique-meteo.net",
+  "costLivingDataFrom": "Las estimaciones del coste de la vida proceden de https://www.numbeo.com",
+  "inConstruction": "En construcción...",
+
+  "navbarPlanning": "¿Planeando mudarse?",
+  "navbarAreYou": "Venir desde ",
+  "navbarLetsMakeIt": "Hagamos que suceda",
+  "navbarMoving": "Mudarse a Barcelona",
+  "navbarHackathon": "Apúntate a nuestro hackathon",
+
+  "hackathonSignIn": "Inscríbase en el Hackathon de junio",
+  "hackathonLastName":"Apellido",
+  "hackathonFirstName":"Nombre",
+  "hackathonEmail":"Correo",
+  "hackathonPhone":"Número de teléfono",
+  "hackathonDuo":"Participo como dúo",
+  "hackathonNoDuo":"Si no tienes compi, no te preocupes, ¡te encontraremos uno!",
+  "hackathonSend":"Registro",
+  "hackathonthanks":"✅ Gracias !",
+  "hackathonConfirmInscription": "Estás registrado para el hackathon y recibirás un correo electrónico con toda la información que necesitas para participar. ¡Nos vemos pronto!",
+
+
+  "hackathonWellDone": "¡Bien hecho! Ahora tienes acceso al proyecto completo. La base de datos será de solo lectura, pero aún puedes probar la aplicación. Si desea realizar llamadas de escritura, deberá implementar su propia base de datos mongoDB y cambiar la cadena de conexión en el archivo .env.",
+
+  "machWithPeople":"Haz match con gente como tú",
+  "viewEvent":"Ver evento"
+}

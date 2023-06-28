@@ -1,0 +1,16 @@
+.weatherTitle {
+  font-family: mont;
+  font-size: 35px;
+  color: #283d47;
+}
+
+@media (max-width:768px) {
+  .weatherTitle {
+    text-align: center;
+    font-family: mont;
+    font-size: 22px;
+    color: #283d47;
+    display: block;
+    margin-bottom: 20px;
+  } 
+}

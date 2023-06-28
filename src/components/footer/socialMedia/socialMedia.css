@@ -1,0 +1,155 @@
+@font-face {
+  font-family: gotham;
+  src: url(../../../fonts/GothamRounded-Book.otf);
+}
+
+@font-face {
+  font-family: Mont;
+  src: url(../../../fonts/Mont-Heavy.otf);
+}
+
+.dataText {
+  font-family: "Nunito", sans-serif;
+  color: #868b8b;
+  font-weight: bold;
+  display: block;
+  font-size: 8px;
+}
+
+.footer {
+  background-color: white;
+  height: 520px;
+  font-family: Mont;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.mediaPictoFixed {
+  width: 80px;
+  margin-right: 20px;
+  display: block;
+  margin: auto;
+}
+
+.columnMiddleContainerFooter {
+  display: 'flex';
+  flex-direction: 'row';
+  justify-content: 'space-around';
+}
+
+@media (max-width:768px) {
+  .text {
+    font-family: gotham;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .footer {
+    margin-bottom: 82px;
+    overflow: visible;
+    height: 550px;
+  }
+
+  .textDown {
+    font-size: 10px;
+  }
+
+  .dataText {
+    font-size: 6px;
+    padding-left: 90px;
+  }
+
+
+  .logoTopContainer {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    transform: translateY(-80px);
+  }
+
+  .mediaPictoFixed {
+    width: 60px;
+  }
+
+  .img {
+    padding-top: 20px;
+  }
+}
+
+@media (min-width:768px) {
+  .text {
+    font-family: gotham;
+    font-weight: bold;
+    font-size: 150%;
+    margin-top: 55px;
+  }
+
+  .logoTopContainer {
+    display: flex;
+    flex-direction: 'row';
+    justify-content: 'space-between';
+    min-width: 150px;
+    max-width: 350px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-40px);
+  }
+
+  .mediaPicto {
+    width: -webkit-fill-available !important;
+    margin-right: 20px;
+  }
+  
+  .line {
+    width: 2px;
+    /* height: 50%; */
+    background-color: #FC9254;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+}
+
+
+
+.textDown {
+  font-family: "Nunito", sans-serif;
+  color: #868b8b;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  display: block;
+  padding-bottom: 24px;
+}
+
+.basicLink {
+  color: black;
+  text-decoration: none;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+}
+
+#contact {
+  margin-left: 9px;
+}
+
+.img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.link {
+  margin-right: 30px;
+}
+
+.clickable {
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+@font-face {
+  font-family: gotham;
+  src: url(../../../fonts/GothamRounded-Book.otf);
+}
+
+.selectLanguage {
+  font-family: gotham !important;
+  font-weight: bold;
+}
+
+.MenuItemFont {
+  font-family: gotham;
+  font-weight: bold;
+}

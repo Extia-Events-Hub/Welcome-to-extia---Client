@@ -1,0 +1,444 @@
+.cardsComponent {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  z-index: 1;
+  /* padding: 12px; */
+}
+
+.lifeCostCard {
+  box-shadow: rgb(0 0 0 / 15%) 10px 15px 25px;
+  width: 28%;
+  margin: 8px 0px 8px 0px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+  background-color: white;
+  z-index: 1;
+  padding: 24px 0px 24px 0px;
+}
+
+.iconCard {
+  width: 100px;
+  display: block;
+  height: 100px;
+  /* margin-top: 30px; */
+}
+
+.livingButton {
+  height: 42px;
+  margin: 4px 0;
+  width: 80%;
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: transparent;
+  font-family: gotham;
+  font-size: 120%;
+  color: rgba(40, 61, 71, 1);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.backArrow {
+  height: 75%;
+  width: 50%;
+}
+
+.backArrowBtn {
+  margin-top: 5px;
+  height: 35px;
+  width: 70px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.currentPrice {
+  text-align: center;
+  font-family: gotham;
+  color: rgba(40, 61, 71, 1);
+  font-size: 28px;
+  width: 50px;
+  margin: 0px 40px 0px 40px;
+}
+
+.topContainer {
+  max-height: 224px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.rowContainer {
+  height: 100px;
+  width: 80%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.citiesPricesContainer {
+  width: 100%;
+  display: flex;
+  margin-top: 0px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: auto;
+}
+.bottomContainer {
+  margin-top: 24px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: gotham;
+  font-size: 30px;
+}
+.informationButton{
+  position: absolute;
+  top: 50%;
+  right: -30px;
+}
+.prices {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.city {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  color: rgba(40, 61, 71, 1);
+  font-size: 120%;
+  margin: 0px 10px 0px 10px;
+}
+
+.sign {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  color: rgba(40, 61, 71, 1);
+  font-size: 180%;
+  margin: 4px 0;
+}
+
+.priceCityPicto {
+  display: block;
+  width: 64px;
+}
+
+.livingButton:hover {
+  background-color: rgba(218, 218, 218, 0.452);
+  transition: background 0.5s;
+}
+
+.livingButton:active {
+  background-color: rgba(226, 226, 226, 0.692);
+  transition: background 0s;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.backArrowButton {
+  padding: 12px;
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: rgba(209, 209, 209, 0.815);
+  color: rgba(40, 61, 71, 1);
+  box-shadow: rgba(199, 199, 199, 0.15) 0px 15px 25px;
+  background-color: rgb(255, 255, 255);
+}
+
+.backArrowButton:hover {
+  background-color: rgba(218, 218, 218, 0.3);
+  transition: background 0.5s;
+}
+
+.backArrowButton:active {
+  background-color: rgba(226, 226, 226, 0.692);
+  transition: background 0s;
+}
+
+.averagePrice
+ {
+  text-align: center;
+  font-family: gotham;
+  font-weight: bold;
+  width: 90%; 
+  margin-top: 10%;
+  font-size: 25px;
+  color: rgba(40, 61, 71, 1);
+}
+
+.circle{
+  position: absolute;
+  background: #56C3C3;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  opacity: 50%;
+  transform: translate(25%, 25%);
+  bottom: 0px;
+  left: -240px;
+  overflow: hidden;
+  z-index: 0;
+}
+.rocketdiv{
+  position: absolute;
+  bottom: -150px;
+  left: -130px;
+  z-index:0;
+
+}
+.rocket{
+width: 400px;
+}
+.cloudsdiv{
+  position: absolute;
+  bottom: 30px;
+  left: -100px;
+  z-index: 3;
+}
+.clouds{
+  width: 400px;
+}
+
+@media screen and (max-width: 1153px) and (min-width: 767px) {
+  .cardsComponent {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    /* padding: 12px; */
+  }
+
+  .lifeCostCard {
+    box-shadow: rgb(0 0 0 / 15%) 10px 15px 25px;
+    min-width: 30%;
+    /* margin: 0 8px; */
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    background-color: white;
+    padding: 24px;
+  }
+
+  .iconCard {
+    height: 82px;
+    width: 82px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .priceSquare {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+    max-width: 66.66%;
+    height: 256px;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: rgba(189, 189, 189, 0.767);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px;
+  }
+
+  .livingButton {
+    height: 42px;
+    margin: 4px 0;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: rgba(189, 189, 189, 0.767);
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+    color: rgba(40, 61, 71, 1);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px;
+  }
+  .currentPrice {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    color: rgba(40, 61, 71, 1);
+    width: 50px;
+    
+    margin: 0px 35px 0px 35px;
+  }
+  .informationButton{
+    position: absolute;
+    top: 50%;
+    right: -40px;
+  }
+  .city {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: bolder;
+    color: rgba(40, 61, 71, 1);
+    font-size: 120%;
+
+    margin: 0px 10px 0px 10px;
+  }
+
+  .topContainer {
+    max-height: 224px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .rowContainer {
+    height: 100px;
+    width: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .citiesPricesContainer {
+    display: flex;
+    margin-top: 0px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: auto;
+  }
+
+  .bottomContainer {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sign {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    color: rgba(40, 61, 71, 1);
+    font-size: 180%;
+    margin: 4px 0;
+  }
+
+  .priceCityPicto {
+    display: block;
+    width: 64px;
+  }
+
+  .livingButton:hover {
+    background-color: rgba(218, 218, 218, 0.452);
+    transition: background 0.5s;
+  }
+
+  .livingButton:active {
+    background-color: rgba(226, 226, 226, 0.692);
+    transition: background 0s;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+
+  .backArrowButton {
+    padding: 12px;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: rgba(209, 209, 209, 0.815);
+    color: rgba(40, 61, 71, 1);
+    box-shadow: rgba(199, 199, 199, 0.15) 0px 15px 25px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .backArrowButton:hover {
+    background-color: rgba(218, 218, 218, 0.3);
+    transition: background 0.5s;
+  }
+
+  .backArrowButton:active {
+    background-color: rgba(226, 226, 226, 0.692);
+    transition: background 0s;
+  }
+
+  .averagePrice
+   {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    width: 90%;
+    font-size: 110%;
+    color: rgba(40, 61, 71, 1);
+  }
+  .circle{
+    display: none;
+  }
+  .rocketdiv{
+    display: none;  
+  }
+  .cloudsdiv{
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 767px) {
+  .cardsComponent {
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 1010px;
+  }
+
+  .lifeCostCard {
+    width: 300px;
+    /* height: 20%; */
+    margin: 0px 30px 0px 10px;
+  }
+
+  .bottomContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .city{
+    margin: 0px 10px 0px 10px;
+  }
+  .currentPrice {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    color: rgba(40, 61, 71, 1);
+    width: 50px;
+    margin: 0px 35px 0px 35px;
+  }
+  .informationButton{
+    position: absolute;
+    top: 50%;
+    right: -10px;
+  }
+  .circle{
+    display: none;
+  }
+  .rocketdiv{
+    display: none;  
+  }
+  .cloudsdiv{
+    display: none;
+  }
+}

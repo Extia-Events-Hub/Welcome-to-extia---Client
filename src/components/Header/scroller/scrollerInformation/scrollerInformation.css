@@ -1,0 +1,65 @@
+.linkdiv {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  cursor: pointer;
+
+  padding-left: 15px;
+}
+.flexdiv{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+  cursor: pointer;
+}
+
+.button {
+  width: auto;
+  height: auto;
+  max-height: 30px;
+  margin-top: min(1vw);
+  margin-bottom: min(1vw);
+  border-color: rgba(40, 61, 71, 0.09);
+  border-radius: 5px;
+  border: 0px solid;
+  transform: scale(1.5);
+  /* overflow: visible; */
+}
+
+.test {
+  margin-left: 0.6vw;
+  transform: scale(1.3);
+}
+
+
+.navbarText {
+  text-align: left;
+  font-family: 'gotham';
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  color: black;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 70px;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 50px;
+}
+
+.linkdiv:hover {
+  color: #FB8F54;
+}
+
+.sepia:hover{
+  filter: invert(60%) sepia(51%) saturate(595%) hue-rotate(332deg) brightness(99%) contrast(99%);
+}
+.nosepia .navbarText:hover {
+  filter: invert(60%) sepia(51%) saturate(595%) hue-rotate(332deg) brightness(99%) contrast(99%);
+}

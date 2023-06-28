@@ -1,0 +1,69 @@
+.slider{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.custom-arrow {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+
+/* Custom styles for the arrows */
+.next-arrow{
+    float: right;
+    right: 16px;
+}
+.prev-arrow{
+    float: left;
+    left: 16px;
+}
+.prev-arrow,
+.next-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  color: #FB7F34;
+  
+}
+
+.prev-arrow:before,
+.next-arrow:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-75%);
+  width: 20px;
+  height: 20px;
+  border-style: solid;
+  border-width: 0 3px 3px 0;
+}
+
+.prev-arrow:before {
+  transform: rotate(135deg);
+  color: #FB7F34;
+}
+
+.next-arrow:before {
+  transform: rotate(-45deg);
+  color: #FB7F34;
+}
+
+.arrow-icon{
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}

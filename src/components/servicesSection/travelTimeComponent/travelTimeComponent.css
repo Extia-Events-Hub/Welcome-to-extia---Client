@@ -1,0 +1,237 @@
+.column {
+  display: flex;
+  float: left;
+  width: 90%;
+}
+
+.selectCard {
+  display: flex;
+  background-color: white;
+  border: 1px solid rgba(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 15%) 0px 15px 25px;
+  border-radius: 30px;
+  height: 10%;
+  width: 90%;
+  margin: auto;
+  margin-top: -5%;
+  position: relative;
+  z-index: 2;
+}
+
+.startTravel {
+  width: 50%;
+}
+
+.travelCardContainer {
+  display: flex;
+  flex-direction: initial;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 0px 10px;
+  gap: 10px;
+}
+
+.travelCardSubContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 8px 0;
+  width: 100%;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.travelTime {
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  color: #283d47;
+}
+
+.travelTimeHover {
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+}
+
+.travelType {
+  text-align: center;
+  width: 100%;
+  font-family: "Nunito", sans-serif;
+  color: #283d47;
+}
+
+.cityItemMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  white-space: pre-line;
+}
+
+.cityItemText {
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.travelSelectContainer {
+  width: 50%;
+}
+
+.separator {
+  height: 80%;
+  padding-right: 4px;
+  padding-left: 4px;
+  border-left: 2px solid #fc9254;
+  vertical-align: middle;
+  margin-top: 1%;
+}
+
+.barContainer {
+  width: 90%;
+  height: 20px;
+  margin: auto;
+  display: inline-flex;
+  justify-content: center;
+  margin: inherit;
+  margin-top: 0%;
+  margin-left: 5%;
+}
+
+.barColor1 {
+  width: 14.2%;
+  height: 20px;
+  background-color: #e25523;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.barColor2 {
+  width: 14.2%;
+  height: 20px;
+  background-color: #fb7f34;
+  border-radius: 0px;
+}
+
+.barColor3 {
+  width: 14.2%;
+  height: 20px;
+  background-color: #fc9254;
+  border-radius: 0px;
+}
+
+.barColor4 {
+  width: 14.2%;
+  height: 20px;
+  background-color: #fbbf2e;
+  border-radius: 0px;
+}
+
+.barColor5 {
+  width: 14.2%;
+  height: 20px;
+  background-color: #fccb56;
+  border-radius: 0px;
+}
+
+.barColor6 {
+  width: 14.2%;
+  height: 20px;
+  background-color: #8dbc6a;
+  border-radius: 0px;
+}
+
+.barColor7 {
+  width: 14.2%;
+  height: 20px;
+  background-color: #6aab54;
+  border-radius: 0px 20px 20px 0px;
+}
+.co2Infos {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: flex-start; */
+  width: 80%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.barText {
+  font-family: Mont;
+  font-weight: bold;
+  margin: auto;
+  width: 85%; 
+  margin-bottom: 0%;
+}
+
+.co2BtnInfo {
+   position: absolute; 
+   right: 110px;  
+}
+
+.triangle {
+  width: 1vw;
+  height: 1vw;
+  background-image: linear-gradient(to bottom right, transparent 50%, black 0),
+    linear-gradient(to top right, black 50%, transparent 0);
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: left, right;
+}
+
+
+
+@media screen and (max-width: 1153px) and (min-width: 767px) {
+  .triangle {
+    width: 1.5vw;
+    height: 1.5vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .travelCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: initial;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .selectCard {
+    display: flex;
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 15%) 0px 15px 25px;
+    border-radius: 30px;
+    height: 10%;
+    width: 90%;
+    margin: auto;
+    margin-top: -60px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .triangle {
+    width: 20px;
+    height: 20px;
+  }
+
+  .co2BtnInfo {
+    position: absolute; 
+    right: 10px;  
+ }
+}

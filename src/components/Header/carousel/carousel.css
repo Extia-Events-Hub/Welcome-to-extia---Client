@@ -1,0 +1,21 @@
+.bg {
+  position: absolute;
+  width: 35%;
+  height: 70%;
+  bottom: 7.5em;
+  left: 60%;
+  background-size: cover;
+  background-position: center;
+  will-change: opacity;
+}
+
+.human {
+  position: absolute;
+  z-index: -1;
+  /* transform: translate(25%, 25%); */
+  right: 4%;
+  bottom: 4%;
+  max-width: 40vw;
+  height: auto;
+  max-height: 70vh;
+}

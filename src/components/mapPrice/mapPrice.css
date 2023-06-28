@@ -1,0 +1,205 @@
+.mapContainer {
+  min-width: 50vw;
+  background-color: #56c3c3;
+}
+
+.mapBarcaPrice {
+  position: relative;
+  display: inline;
+  width: 95%;
+  border-radius: 20px;
+  box-shadow: rgb(0 0 0 / 25%) 0px 15px 25px;
+}
+
+.mapBarcaPrice2 {
+  position: relative;
+  display: inline;
+  width: 82.4%;
+  border-radius: 20px;
+  box-shadow: rgb(0 0 0 / 25%) 0px 15px 25px;
+}
+
+.lifeStyleButton {
+  position: relative;
+  width: 150%;
+  margin-top: 60%;
+  height: 20%;
+  border: 0px solid;
+  display: flex;
+  border-radius: 70px;
+  background-color: rgb(78, 179, 179);
+}
+
+.buttonDiv {
+  position: relative;
+}
+
+.lifeStyleText {
+  position: relative;
+  top: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+#solo {
+  background-image: url("../../images/lifeStyle/couple.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#couple {
+  background-image: url("../../images/lifeStyle/famille.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#roommate {
+  background-image: url("../../images/lifeStyle/coloc.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.neighbourhood {
+  position: relative;
+  width: 35%;
+  height: 95%;
+  margin-top: 2%;
+  margin-left: 2%;
+  color: rgba(40, 61, 71, 1);
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: rgb(0 0 0 / 15%) 10px 15px 25px;
+}
+
+.pictoLifeStyle {
+  width: 70%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: rgb(0 0 0 / 25%) 0px 15px 25px;
+  border-radius: 100px;
+}
+
+.lifeStyleType {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.cardLifeStyle {
+  display: inline-block;
+  margin-top: 10%;
+  border-radius: 20px;
+  margin-right: 3.5%;
+  margin-left: 3.5%;
+  width: 26%;
+  height: 40px;
+  border: 1px solid;
+}
+
+.rentAppart {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-left: 10%;
+  border: 1px solid white;
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 15%) 0px 15px 25px;
+  margin-top: 90px;
+}
+
+.formRentAppart {
+  display: table-caption;
+  position: relative;
+  bottom: 702px;
+  margin-bottom: -400%;
+  left: 1250%;
+  margin-right: 15%;
+  width: 120px;
+  height: 700px;
+  border: 0px solid;
+  border-radius: 30px;
+  box-shadow: rgb(0 0 0 / 15%) 10px 15px 25px;
+  background-color: rgb(78, 179, 179);
+}
+
+#idealista {
+  background-image: url("../../images/idealistaLogo.png");
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: -24px 20px;
+}
+
+#kasaz {
+  background-image: url("../../images/kasazLogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0px 28px;
+}
+#badi {
+  background-image: url("../../images/badiLogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.backArrowButtonStyle {
+  margin-left: 18%;
+  width: 65%;
+  height: 40px;
+  margin-top: 5%;
+  border-radius: 30px;
+  border: 2px solid;
+  border-color: rgba(40, 61, 71, 0.3);
+  box-shadow: rgb(0 0 0 / 15%) 0px 15px 25px;
+
+  color: rgba(40, 61, 71, 1);
+  background-image: url("../../images/back.png");
+  background-size: 20%;
+  background-position: 50% 35%;
+  background-repeat: no-repeat;
+}
+
+.initContainer {
+  width: 62%;
+  margin-left: 15%;
+  margin-top: 5%;
+  padding: 1%;
+  display: inline-flex;
+  box-shadow: rgb(0 0 0 / 15%) 10px 15px 25px;
+  border-radius: 30px;
+  background-color: rgb(78, 179, 179);
+}
+
+.insideText {
+  border-radius: 30px;
+  border: 2px solid;
+  width: 75%;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  box-shadow: rgb(0 0 0 / 15%) 0px 15px 25px;
+  border-color: rgba(40, 61, 71, 0.3);
+  color: rgba(40, 61, 71, 1);
+}
+
+.textCard {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+iframe {
+  display: none;
+}
+
+.rentAppart:hover + iframe {
+  display: block;
+  position: relative;
+}
